@@ -4,7 +4,7 @@
   "Name": "Request",
   "BaseGuid": "04581d26-0780-4cfd-b3cd-c2cafc5798b0",
   "CanBeNavigationPropertyType": true,
-  "CanBeSearch": true,
+  "CanBeSearch": false,
   "Code": "Request",
   "CreationAreaMetadata": {
     "NameGuid": "f7766750-eee2-4fcd-8003-5c06a90d1f44",
@@ -108,9 +108,11 @@
   ],
   "IconResourcesKeys": [],
   "IsAbstract": true,
+  "IsVisible": false,
   "OperationsClass": "",
   "Overridden": [
-    "CanBeSearch"
+    "CanBeSearch",
+    "IsVisible"
   ],
   "Properties": [
     {
